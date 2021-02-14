@@ -28,4 +28,4 @@ The portfolio contains 3 sections:
 
 ## Explore
 
-Come take a peak at my [portoflio]()
+Come take a peak at my [portoflio](https://cliffybar.github.io/Big-Red-Developer/)
