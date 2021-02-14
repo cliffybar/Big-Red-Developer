@@ -16,7 +16,7 @@ body {
 }
   
 
-/* HEADER / NAV BAR STYLES START */
+/* HEADER / NAV BAR START */
 header {
     padding: 20px 35px;
     position: -webkit-sticky;
@@ -65,10 +65,10 @@ header nav ul li a:hover {
     border-radius: 50px;
     text-shadow: none;
 }
-/* HEADER / NAVBAR STYLES END */
+/* HEADER / NAVBAR END */
 
 
-/* FOOTER STYLES START */
+/* FOOTER START */
 footer {
     background: #232c33;
     padding: 20px 35px;
@@ -79,10 +79,10 @@ footer {
     color: rgb(240, 240, 240);
 }
 
-/* END FOOTER STYLES */
+/* FOOTER END */
 
 
-/* SECTION TITLE STYLES START */
+/* SECTION TITLE START */
 .section-title {
     font-size: 40px;
     color: var(--first-color);
@@ -91,10 +91,10 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
-/* SECTION TITLE STYLES END*/
+/* SECTION TITLE END*/
 
 
-/* ABOUT SECTION START*/
+/* ABOUT ME START*/
 .about-me {
     display:flex;
     justify-content: center;
@@ -127,11 +127,10 @@ footer {
     color: gray;
     text-decoration: none;
 }
-/* ABOUT ME SECTION END */
+/* ABOUT ME END */
 
 
-/* WORKS SECTION START */
-
+/* WORKS START */
 .my-projects {
     display: flex;
     justify-content: space-around;
@@ -194,9 +193,10 @@ footer {
 .content p {
     font-size: 17px;
 }
+/* WORKS END */
 
-/* REACH SECTION START */
 
+/* REACH START */
 .contact {
     width: 100%;
 }
@@ -253,9 +253,10 @@ footer {
     padding: 15px 0;
     font-size: 16px;
 }
+/* REACH END */
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -299,7 +300,6 @@ footer {
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-
 @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
@@ -326,7 +326,6 @@ footer {
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-
 @media screen and (max-width: 575px) {
     .section-title {
         width: 95%;
