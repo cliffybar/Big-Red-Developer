@@ -4,40 +4,33 @@
     padding: 0;
 }
 
-/* :root {
-    --primary-color: rgb(143, 106, 106);
-    --secondary-color: #024e76;
-    --tertiary-color: black;
-} */
+:root {
+    --first-color: black;
+    --second-color: #0a112b;
+}
 
 body {
-    color: var(--tertiary-color);
+    background-color: #f0fff7;
+    color: var(--first-color);
     font-family: 'Times New Roman', Times, Arial, sans-serif;
 }
   
 
 /* HEADER / NAV BAR STYLES START */
-  
 header {
     padding: 20px 35px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: rgb(15, 27, 54);
-    /* background-image: url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%; */
+    background-color: var(--second-color);
     z-index: 9999;
 }
   
 header h1 {
     font-weight: lighter;
     margin: 0;
-    font-size: 36px;
-    padding: 20px;
-    color: var(--primary-color);
+    font-size: 50px;
+    padding: 10px;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -54,15 +47,15 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: justify;
     list-style: none;
 }
   
 header nav ul li a {
-    /* padding: 10px 15px; */
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -72,56 +65,194 @@ header nav ul li a:hover {
     border-radius: 50px;
     text-shadow: none;
 }
-  
 /* HEADER / NAVBAR STYLES END */
-  
 
-/* ABOUT ME SECTION */
 
-.headshot {
-    border-color: rgba(255, 255, 0, 0.466);
-    border-image: none;
-    border-radius: 50% 50% 50% 50%;
-    border-style: solid;
-    border-width: 25px;
-    width: 50%;
-    height: 50%;
-    overflow: hidden;
-}
-  
 /* FOOTER STYLES START */
 footer {
-    background: var(--primary-color);
-    padding: 40px 35px;
+    background: #232c33;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    color: rgb(240, 240, 240);
 }
-  
-footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-}
-  
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-  
-footer a {
-    color: var(--secondary-color);
-}
+
 /* END FOOTER STYLES */
-  
 
-/* STYLE ALL SECTION TAGS */
 
-section {
-    padding: 60px;
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 40px;
+    color: var(--first-color);
+    padding-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* SECTION TITLE STYLES END*/
+
+
+/* ABOUT SECTION START*/
+.about-me {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.headshot {
+    border-color: #caf139;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 5px;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.bio {
+    padding: 25px;
+    line-height: 1.5;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.bio p {
+    font-size: 20px;
+}
+
+.bio-link {
+    color: gray;
+    text-decoration: none;
+}
+/* ABOUT ME SECTION END */
+
+
+/* WORKS SECTION START */
+
+.my-projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    background: #8bffb8ad;
+}
+
+.horiseon {
+    padding: 20px 0 50px 0;
+}
+
+.horiseon .primary-image {
+    width: 70%;
+    border-color: var(--second-color);
+    border-radius: 3%;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.secondary-image {
+    width: 500px;
+    height: 300px;
+    border-color: var(--second-color);
+    border-radius: 3%;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.run-buddy {
+    padding: 25px 50px 25px 0;
+}
+
+.mariah {
+    padding: 25px 0px 25px 50px;
+}
+
+.loading {
+    padding: 25px 0 50px 0;
+}
+
+.content {
+    width: 100%;
+}
+
+.content h3 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.content p {
+    font-size: 17px;
+}
+
+/* REACH SECTION START */
+
+.contact {
+    width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.contact-info h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+
+.contact1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact1 img {
+    width: 50px;
+    border-radius: 100px;
+}
+
+.contact1 a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+.contact-form {
+    font-size: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--first-color);
+    border-radius: 100px;
+    display: block;
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
@@ -133,13 +264,13 @@ section {
     }
 
     header h1 {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
     header nav ul {
         margin-top: 20px;
-        width: 100%;
+        width: 90%;
         justify-content: center;
     }
 
@@ -152,24 +283,17 @@ section {
         width: 100%;
     }
 
-    .hero-cta, .hero-form {
+    .about, .works, .reach {
         width: 100%;
     }
 
-    .hero-cta {
-        text-align: center;
+    .works {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .section-title {
-        width: 80%;
-    }
-
-    .trainer {
-        flex: 0 70%;
-    }
-
-    .contact-info iframe {
-        flex: 1 100%;
+        width: 100%;
     }
 }
 
@@ -192,15 +316,11 @@ section {
         justify-content: center;
     }
 
-    .step-img {
+    .primary-image, .secondary-image {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
-    }
-
-    .step-text {
-        flex: 100%;
     }
 }
 
@@ -208,20 +328,8 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
-
     .section-title {
         width: 95%;
-    }
-
-    .intro p {
-        width: 100%;
-    }
-
-    .trainer {
-        flex: 0 100%;
     }
 
     .contact-info {

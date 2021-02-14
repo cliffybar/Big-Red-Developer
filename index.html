@@ -12,7 +12,6 @@
 <body>
     <!-- navigation tags - block level element -->
     <header>
-
         <h1>
             <a href="https://github.com/cliffybar">Hi, I'm Clifford.</a>
         </h1>
@@ -31,78 +30,134 @@
             </ul>
 
         </nav>
-
     </header>
     <!-- end navigation -->
 
     <section id="about" class="about-me">
         <img src="./assets/images/myphoto.jpg" class="headshot" alt="Clifford smiling at The Grand Canyon" />
+        <div class="bio">
+            <h2 class="section-title">
+                A B O U T
+            </h2>
 
-        <p>
-            Hello! I'm Clifford (David to some) and I am an aspiring software developer! In May of 2019, I graduated from The University of Texas at Austin with a Bachelor's in Economics.
-            Upon graduation, I joined EY as a State & Local Tax Analyst. Currently, I am a student of my alma matter's Coding Boot Camp, particpating in the Full Stack Program to gain 
-            proficiency in languages such as JavaScript, HTML, CSS, and many more. 
-
+            <p>
+                Hello! I'm Clifford (David to some) and I am an aspiring software developer! I graduated from The University of Texas at Austin in May of 2019 with a Bachelor's in Economics.
+                Upon graduation, I joined EY as a State & Local Tax Analyst. Besides performing the standard objectives alluded by my job title, I have also been tasked with helping develop
+                tax automation softwares to promote efficiency in my day-to-day activities. Learning and having exposure to a vastly different skillset required for software developing sparked
+                my curiosity in tech. This curiosity led me to my alma matter's Coding Boot Camp where I am particpating in the Full Stack Program to gain proficiency in languages such as JavaScript, 
+                HTML, CSS, and many more. Soon, I will be developing beyond tax automotation softwares and hopefully, <a href="#reach" class="bio-link">building something with you.</a>
+            </p>
+        </div>    
     </section>
 
-    <div id="works" class="projects">
-        
-        <li>
+    <section id="works" class="my-projects">
+        <h2 class="section-title">
+            W O R K S
+        </h2>
+        <article class="horiseon">
             <a href="https://cliffybar.github.io/Horiseon-Recon-and-Refactor/">
-                <img src="./assets/images/Horiseon.png" alt="Horiseon Recon and Refactor application web page screenshot" >
+                <img 
+                src="./assets/images/Horiseon.png" 
+                class="primary-image"
+                alt="Horiseon Recon and Refactor application web page screenshot"/>
             </a>
-
-            <p>Horiseon Recon and Refactor is an innovative marketing strategies firm that leverages technology as a means 
-                of improving your business practices.
-            </p>
-        </li>
+            <div class="content">
+                <h3>Horiseon Recon and Refactor</h3>
+                <p>Objective: </br>
+                    Refactor mock-up code to include semantic HTML elements and consolidate CSS.
+                </p>
+            </div>
+        </article>
         
-        <li>
-            <a href="https://cliffybar.github.io/run-buddy/">
-                <img src="./assets/images/Run-Buddy.png" alt="Run Buddy application web page screenshot" >
-            </a>
-        </li>
+        <div class="other-projects">
+            <article class="projects">
+                <div class="run-buddy">
+                    <a href="https://cliffybar.github.io/run-buddy/">
+                        <img 
+                        src="./assets/images/Run-Buddy.png" 
+                        class="secondary-image" 
+                        alt="Run Buddy application web page screenshot"/>
+                    </a>
+                    <div class="content">
+                        <h3>Run Buddy</h3>
+                        <p>Objective: </br>
+                            Build upon a website using mock-up and apply advanced HTML and CSS elements.
+                        </p>
+                    </div>    
+                </div>
 
-        <li>
-            <a href="https://cliffybar.github.io/mariah-fanpage/">
-                <img src="./assets/images/mariah-fanpage.png" alt="Mariah Carey fan page web page screenshot" >
-            </a>
-        </li>
-
-        <li>
-            <img src="gif of loading screen" alt="Gif of loading screen" />
-        </li>
-    </div>
+                <div class="mariah">
+                    <a href="https://cliffybar.github.io/mariah-fanpage/">
+                        <img 
+                        src="./assets/images/mariah-fanpage.png"
+                        class="secondary-image" 
+                        alt="Mariah Carey fan page web page screenshot"/>
+                    </a>
+                    <div class="content">
+                        <h3>Mariah Carey Fan Page</h3>
+                        <p>Objective: </br>
+                            Create a fan page for our favorite band/artist as part of the pre-work modules.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="loading">
+                    <a href="#reach">
+                        <img 
+                        src="./assets/images/loading.gif" 
+                        class="secondary-image"
+                        alt="Gif of loading screen"/>
+                    </a>
+                    <div class="content">
+                        <h3>Under Construction</h3>
+                        <p>Objective: </br>
+                            Create a project with you. What can I do for you?
+                        </p>
+                    </div>    
+                </div>
+            </article>    
+        </div>
+    </section>
 
     <!-- "reach out" start -->
-    <section id="reach-out" class="contact">
+    <section id="reach" class="contact">
         <div class="flex-row">
-            <h2 class="section-title secondary-border">
-                Reach Out
+            <h2 class="section-title">
+                R E A C H
             </h2>
         </div>
 
-        <div id="reach">
-            <div>
-                <h3>Run Buddy</h3>
+        <div class="contact-info">
+            <div class="contact1">
+                <h3>Personal</h3>
                 <p>
-                    Any questions or concerns before signing up?
-                    <br />
-                    Let us know and we'll be happy to talk to you!
+                Phone: (817) 948-5262
+                </br>
+                <a href="mailto: crowellclifford@utexas.edu">Email: crowellclifford@utexas.edu</a>
                 </p>
+            </div>
 
-                <address>
-                    P: 817 948 5262<br />
-                    E: <a href="mailto:crowellclifford@utexas.edu">crowellclifford@utexas.edu</a>
-                </address>
-
+            <div class="contact1">
+                <h3>Social</h3>
+                <a href="https://www.linkedin.com/in/clifford-david-crowell/">
+                    <img src="./assets/images/linkedin.png"/>
+                </a>
+                <a href="https://www.instagram.com/cliffyeats/?hl=en">
+                    <img src="assets/images/instagram.png"/>
+                </a>
+                <a href="https://github.com/cliffybar">
+                    <img src="assets/images/github.png"/>
+                </a>
             </div>
 
             <div class="contact-form">
-                <h3>Contact Us</h3>
+                <h3>General</h3>
                 <form>
                     <label for="contact-name">Your Name</label>
                     <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-email">Your Email</label>
+                    <input type="text" id="contact-email" placeholder="Your Email" />
 
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="Message"></textarea>
@@ -110,17 +165,15 @@
                     <button type="submit">Submit</button>
                 </form>
             </div>
-
-        </div>
+        </div>    
     </section>
     <!-- "reach out" end -->
 
     <!-- footer -->
     <footer>
-        <h2>Created by Clifford, the Big Red Developer.</h2>
+        <h5>Created by Clifford, the Big Red Developer.</h5>
         <div>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         </div>
     </footer>
     <!-- footer end -->
