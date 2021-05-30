@@ -137,14 +137,14 @@ footer {
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
-    background: #8bffb8ad;
+    background: #346445ad;
 }
 
-.horiseon {
+.boozey {
     padding: 20px 0 50px 0;
 }
 
-.horiseon .primary-image {
+.boozey .primary-image {
     width: 70%;
     border-color: var(--second-color);
     border-radius: 3%;
